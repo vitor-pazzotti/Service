@@ -39,6 +39,6 @@ def valida(cpf):
     restoK = (somaK * 10) % 11
 
     if restoJ == var[9] and restoK == var[10] and len(set(var)) == 1:
-        return('CPF Inválido.')
+        return('CPF Inválido')
     else:  
         return ('Válido')
